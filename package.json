@@ -1,0 +1,24 @@
+{
+  "name": "js_0_fundamentos",
+  "version": "1.0.0",
+  "description": "JS curso fundamental",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uriel228/JS.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "package"
+  ],
+  "author": "Yasuhiro Rosales",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Uriel228/JS/issues"
+  },
+  "homepage": "https://github.com/Uriel228/JS#readme"
+}
