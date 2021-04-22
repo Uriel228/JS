@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    display: flex;
+    margin-top: 0%;
+    color: rgb(5, 251, 17);
+    justify-content: center;
+    font-family: cursive;
+}
