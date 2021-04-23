@@ -18,19 +18,30 @@ function lastWord({nombre}){
     console.log('La ultima letra de', nombre,  'es: ',nombre.substr(-1))
 }
 lastWord(uriel)
+lastWord(luis)
+lastWord(tadeo)
 
 function imprimirNyE(persona){
     console.log('Hola', persona.nombre, 'tienes', persona.edad)
 }
 imprimirNyE(luis)
+imprimirNyE(uriel)
+imprimirNyE(tadeo)
+
+
+const MAYORIA_DE_EDAD = 18;
+
+function mayor(persona){
+    return persona.edad >= MAYORIA_DE_EDAD
+}
 
 function age(persona){
-    if(persona.edad >= 18){
+    if(mayor(persona)){
     console.log(`La edad de: ${persona.nombre} es: ${persona.edad} mayor de edad `)
     }else{
     console.log(`La edad de: ${persona.nombre} es: ${persona.edad} menor de edad `)
     }
 }
-age(uriel)
-age(luis)
-age(tadeo)
+// age(uriel)
+// age(luis)
+// age(tadeo)
