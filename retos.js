@@ -42,6 +42,6 @@ function age(persona){
     console.log(`La edad de: ${persona.nombre} es: ${persona.edad} menor de edad `)
     }
 }
-// age(uriel)
-// age(luis)
-// age(tadeo)
+age(uriel)
+age(luis)
+age(tadeo)
