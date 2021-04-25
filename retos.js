@@ -31,9 +31,10 @@ imprimirNyE(tadeo)
 
 const MAYORIA_DE_EDAD = 18;
 
-function mayor(persona){
-    return persona.edad >= MAYORIA_DE_EDAD
-}
+// function mayor(persona){
+//     return persona.edad >= MAYORIA_DE_EDAD
+// }
+const mayor = persona => persona.edad >= MAYORIA_DE_EDAD
 
 function age(persona){
     if(mayor(persona)){
