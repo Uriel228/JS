@@ -34,7 +34,8 @@ const MAYORIA_DE_EDAD = 18;
 // function mayor(persona){
 //     return persona.edad >= MAYORIA_DE_EDAD
 // }
-const mayor = persona => persona.edad >= MAYORIA_DE_EDAD
+//const mayor = persona => persona.edad >= MAYORIA_DE_EDAD
+const mayor = ({edad}) => edad >= MAYORIA_DE_EDAD
 
 function age(persona){
     if(mayor(persona)){
@@ -46,3 +47,10 @@ function age(persona){
 age(uriel)
 age(luis)
 age(tadeo)
+
+// function permitirAcceso({edad}){
+//     if(!mayor({edad})){
+//         console.log('Acceso denegado')
+//     }
+// }
+const permitirAcceso = ({edad}) => !mayor({edad}) ? console.log('Acceso denegado') : console.log('Acceso permitido')
